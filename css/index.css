@@ -3,11 +3,12 @@
     padding: 0;
 }
 
-.homepage-hero-module {
+.homepage-hero {
     border-right: none;
     border-left: none;
     position: relative;
 }
+
 .no-video .video-container video,
 .touch .video-container video {
     display: none;
@@ -43,4 +44,19 @@
 }
 .video-container video.fillWidth {
     width: 100%;
+}
+
+.header-hero {
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=80);
+  -moz-opacity: 0.80;
+  -khtml-opacity: 0.8;
+  opacity: 0.8;
+}
+
+.header-brand {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 60px;
+    color: #D8D8D8;
 }
