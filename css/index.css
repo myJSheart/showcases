@@ -3,12 +3,11 @@
     padding: 0;
 }
 
-.homepage-hero {
+.homepage-hero-module {
     border-right: none;
     border-left: none;
     position: relative;
 }
-
 .no-video .video-container video,
 .touch .video-container video {
     display: none;
@@ -21,7 +20,7 @@
     position: relative;
     bottom: 0%;
     left: 0%;
-    height: 80%;
+    height: 100%;
     width: 100%;
     overflow: hidden;
     background: #000;
@@ -47,16 +46,43 @@
 }
 
 .header-hero {
-  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=80);
-  -moz-opacity: 0.80;
-  -khtml-opacity: 0.8;
-  opacity: 0.8;
+  background-color: rgba(51,51,51,0.8);
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  /*box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);*/
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
 }
 
 .header-brand {
     font-family: "Comic Sans MS", cursive, sans-serif;
     font-size: 60px;
     color: #D8D8D8;
+}
+
+.header-brand:hover {
+  color: black;
+}
+
+#header-right-nav-link a{
+  color: rgba(255, 255, 255, 1.0);
+}
+
+#header-right-nav-link a:hover{
+  color: #D8D8D8;
+  background-color: transparent;
+}
+
+.model h1 {
+  font-family: 'Courgette', cursive;
+  font-size: 24px;
+}
+
+.model p {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 12px;
+}
+
+.model:hover {
+  font: bold;
 }
